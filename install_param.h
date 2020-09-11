@@ -16,9 +16,8 @@
 #ifndef OHOS_INSTALL_PARAM_H
 #define OHOS_INSTALL_PARAM_H
 
-#include "stdint.h"
-
 #include <stdbool.h>
+#include <stdint.h> 
 
 // when installLocation set 1, it means install dir is storage/app
 const static int32_t INSTALL_LOCATION_INTERNAL_ONLY = 1;
