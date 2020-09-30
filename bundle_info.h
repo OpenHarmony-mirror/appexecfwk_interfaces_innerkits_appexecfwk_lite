@@ -113,9 +113,6 @@ typedef struct {
     /** Number of {@link ModuleInfo} objects included in the application */
     int32_t numOfModule;
 #ifdef OHOS_APPEXECFWK_BMS_BUNDLEMANAGER
-    /** Pointer to the shared library path */
-    char *sharedLibPath;
-
     /**
      * Application ID, which uniquely identifies an application. It is a combination of the bundle name and
      * signature of the application.
