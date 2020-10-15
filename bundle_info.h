@@ -113,7 +113,7 @@ typedef struct {
     /** Number of {@link ModuleInfo} objects included in the application */
     int32_t numOfModule;
 #ifdef OHOS_APPEXECFWK_BMS_BUNDLEMANAGER
-    /** Pointer to the shared library path */
+    /** Unused attribute for launcher running */
     char *sharedLibPath;
 
     /**
